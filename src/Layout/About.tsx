@@ -3,7 +3,7 @@ import bg from "../assets/img/end.webp";
 
 const About: React.FC = () => {
   return (
-    <div className="relative">
+    <section className="relative">
       <img src={bg} alt="background" className="w-full h-[50vw] " />
       <div className="absolute top-0 left-0 flex w-full h-full items-center justify-center">
         <div className=" text-[3vw] text-center text-white">
@@ -14,7 +14,7 @@ const About: React.FC = () => {
           <p>to the Solana community</p>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 
