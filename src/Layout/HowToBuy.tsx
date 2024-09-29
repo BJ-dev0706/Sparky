@@ -99,7 +99,7 @@ const HowToBuy: React.FC = () => {
                         <a href={item.link} target="_blank" rel="noreferrer">
                             <img src={item.image} alt="" className="w-[50px] h-[50px] hover:scale-105 transition" />
                         </a>
-                        <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-4 w-max px-2 py-1 text-white bg-black rounded-md opacity-0 scale-50 transition-all duration-500 group-hover:opacity-100 group-hover:scale-100">
+                        <div className=" absolute bottom-full left-1/2 transform -translate-x-1/2 mb-4 w-max px-2 py-1 text-white bg-black rounded-md opacity-0 scale-50 transition-all duration-500 group-hover:opacity-100 group-hover:scale-100">
                             {item.name}
                         </div>
                     </div>
