@@ -8,10 +8,10 @@ const Slider = () => {
     return(
         <section className="w-full flex flex-col items-center justify-center bg-red-500">
             <Marquee direction="right">
-                <img src={one} alt="" className="" />
-                <img src={three} alt="" />
-                <img src={four} alt="" />
-                <img src={five} alt="" />
+                <img src={one} alt="" className="sm:h-[50vh] h-[30vh]" />
+                <img src={three} alt="" className="sm:h-[50vh] h-[30vh]" />
+                <img src={four} alt="" className="sm:h-[50vh] h-[30vh]" />
+                <img src={five} alt="" className="sm:h-[50vh] h-[30vh]" />
             </Marquee>
         </section>
     )
