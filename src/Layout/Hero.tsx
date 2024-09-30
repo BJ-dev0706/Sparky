@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <section className="relative overflow-hidden luckiest-guy-regular" id="home">
       <div className="absolute top-0 right-0 left-0 h-full w-screen overflow-hidden flex items-center justify-center bg-cover">
-        <div className="Mark absolute top-1/3 z-50 lg:text-9xl md:text-8xl sm:text-7xl text-5xl text-white sparky tracking-widest">
+        <div className="Mark absolute top-1/3 z-50 lg:text-8xl md:text-7xl sm:text-6xl text-5xl text-white sparky tracking-widest">
           {/* <img
             src={title}
             alt="Mark"
