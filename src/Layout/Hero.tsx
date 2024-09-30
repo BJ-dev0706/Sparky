@@ -7,7 +7,7 @@ import Marquee from "react-fast-marquee";
 
 const Hero = () => {
   return (
-    <section className="relative overflow-hidden">
+    <section className="relative overflow-hidden" id="home">
       <div className="absolute top-0 right-0 left-0 h-full w-screen overflow-hidden flex items-center justify-center luckiest-guy-regular bg-cover">
         {/* <h1 className="hero_text">Sparky</h1> */}
         <div className="Mark">
@@ -17,7 +17,7 @@ const Hero = () => {
             className="hover:scale-110 transition !z-[100]"
           />
         </div>
-        <div className="text-3xl text-[#1a0808] bottom-10 absolute font-extrabold">
+        <div className="text-3xl text-[#1a0808] bottom-10 absolute font-extrabold max-sm:hidden">
           <Typewriter
             options={{
               strings: [

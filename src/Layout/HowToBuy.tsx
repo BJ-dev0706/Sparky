@@ -69,7 +69,7 @@ const HowToBuy: React.FC = () => {
   };
 
   return (
-    <div className="relative h-full">
+    <section className="relative h-full" id="howtobuy">
       <img src={bg} alt="background" className="w-full h-[50vw]" />
       <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
         {/* <BtnGroups /> */}
@@ -137,7 +137,7 @@ const HowToBuy: React.FC = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

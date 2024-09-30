@@ -1,4 +1,5 @@
 @import "./stylesheet/hero.css";
+@import "./stylesheet/Tokenomic.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,6 +9,10 @@
     font-weight: 400;
     font-display: swap;
     src: url(./assets/Neufreit-ExtraBold.otf) format('otf');
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .luckiest-guy-regular {

@@ -3,11 +3,10 @@ import Header from "./Layout/Header";
 import HowToBuy from "./Layout/HowToBuy";
 import Footer from "./Layout/Footer";
 import Hero from "./Layout/Hero";
-import About from "./Layout/About";
+import Tokenomic from "./Layout/Tokenomic";
 import Sparky from "./contains/Sparky";
-import Slider from "./Layout/Slider";
+import About from "./Layout/About";
 import BackToTopBtn from "./contains/BackToTopBtn";
-import Story from "./Layout/Story";
 
 const App: React.FC = () => {
   return(
@@ -15,13 +14,11 @@ const App: React.FC = () => {
       <Header />
       <Hero />
       <Sparky />
-      <Slider />
-      <Sparky />
-      <Story />
+      <About />
       <Sparky />
       <HowToBuy/>
       <Sparky />
-      <About />
+      <Tokenomic />
       <Footer />
       <BackToTopBtn />
     </div>
