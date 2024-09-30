@@ -18,7 +18,7 @@ const App: React.FC = () => {
       <HowToBuy/>
       <Sparky />
       <End />
-      <Footer />
+      {/* <Footer /> */}
       <BackToTopBtn />
     </div>
   )

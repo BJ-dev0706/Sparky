@@ -27,3 +27,53 @@
 .slide-down-token {
     animation: slide-down-token 1s ease forwards;
 }
+
+.navigation {
+    --blur: 0.4rem;
+    width: 100%;
+    padding: 1rem 0.5rem;
+    background-color: var(--blur-black-col);
+    backdrop-filter: blur(var(--blur));
+    -webkit-backdrop-filter: blur(var(--blur));
+    border: 2px solid var(--main-black-col);
+    border-right-color: transparent;
+    z-index: 100;
+    border-left-color: transparent;
+    bottom: 0;
+    position: absolute;
+    color: var(--main-white-col);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navigation[role="footer navigation"] {
+    transform-origin: bottom center;
+}
+
+.navigation.fixed {
+    position: fixed;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.navigation.fixed.show {
+    opacity: 1;
+}
+
+.navigation_ul {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.navigation_ul li a {
+    position: relative;
+    width: 2.8rem;
+    aspect-ratio: 1;
+    background-color: var(--main-white-col);
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+}
