@@ -1,0 +1,42 @@
+.Mark {
+    position: absolute;
+    top: 0%;
+    animation: mark 2s linear;
+    animation: scale 2s linear 2s infinite;
+}
+
+@keyframes mark {
+    0% {
+        top: -100%;
+    }
+    79% {
+        top: 0%;
+    }
+    80% {
+        top: -1%;
+    }
+    84% {
+        top: -0%;
+    }
+    88% {
+        top: -1%;
+    }
+    92% {
+        top: -0%;
+    }
+    96% {
+        top: -1%;
+    }
+    100% {
+        top: 0%;
+    }
+}
+
+@keyframes scale {
+    from {
+        transform: scale(0.9);
+    }
+    to {
+        transform: scale(1.2);
+    }
+}
