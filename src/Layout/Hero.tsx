@@ -16,7 +16,7 @@ const Hero = () => {
             className="hover:scale-110 transition !z-[100]"
           />
         </div>
-        <div className="md:text-2xl text-lg text-[#ff0000] bottom-10 absolute font-extrabold max-sm:hidden mx-5 text-center">
+        <div className="md:text-2xl text-lg text-white bg-[#0096cc] border-2 p-2 bottom-10 absolute font-extrabold max-sm:hidden mx-5 text-center shadow-2xl rounded-md" >
           <Typewriter
             options={{
               strings: [

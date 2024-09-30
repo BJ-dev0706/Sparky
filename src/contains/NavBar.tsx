@@ -8,10 +8,9 @@ interface Tab {
 }
 
 const tabs: Tab[] = [
-    { name: "Home", color: "#f00", id: "home" },
+    { name: "Home", color: "#0c0", id: "home" },
     { name: "About", color: "#0c0", id: "about" },
-    { name: "HowToBuy", color: "#f90", id: "howtobuy" },
-    { name: "Tokenomic", color: "#b1f", id: "tokenomic" },
+    { name: "HowToBuy", color: "#0c0", id: "howtobuy" }
 ];
 
 const duration = 0.3;
@@ -21,7 +20,7 @@ const Navbar: React.FC = () => {
     const [formerColor, setFormerColor] = useState<string>(tabs[0].color);
 
     return (
-        <div className="relative rounded-3xl bg-black bg-opacity-20 md:p-2 p-1 flex">
+        <div className="relative rounded-3xl bg-[#0096cc] border-[3px] border-[#fff] bg-opacity-70 md:p-2 p-1 flex">
             {tabs.map(({ name, color, id }, i) => (
                 <motion.div
                     className="relative md:h-8 h-5 md:px-4 px-2 m-0 font-sans md:text-lg text-sm font-bold text-gray-800 cursor-pointer flex items-center"

@@ -7,6 +7,7 @@ import Hero from "./Layout/Hero";
 import Sparky from "./contains/Sparky";
 import About from "./Layout/About";
 import BackToTopBtn from "./contains/BackToTopBtn";
+import End from "./Layout/End";
 
 const App: React.FC = () => {
   return(
@@ -17,8 +18,8 @@ const App: React.FC = () => {
       <About />
       <Sparky />
       <HowToBuy/>
-      {/* <Sparky /> */}
-      {/* <Tokenomic /> */}
+      <Sparky />      {/* <Tokenomic /> */}
+      <End />
       <Footer />
       <BackToTopBtn />
     </div>
