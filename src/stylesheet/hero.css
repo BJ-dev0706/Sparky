@@ -65,5 +65,5 @@
 }
 
 .sparky {
-    text-shadow: -10px 0 black, 0 10px black, 10px 0 black, 0 -10px black;
+    -webkit-text-stroke: .07em #000000;
 }
