@@ -1,3 +1,18 @@
+:root {
+    font-size: 16px;
+    --main-green-col: #29b968;
+    --blur-green-col: #29b967c0;
+    --dark-green-col: #004c21;
+    --main-white-col: #ffffff;
+    --main-black-col: #000;
+    --main-yellow-col: #e7bb3f;
+    --blur-yellow-col: #e7ba3f5c;
+    --chakra-font: "Chakra Petch", sans-serif;
+    --fredoka-font: "Fredoka", sans-serif;
+    --blur-black-col: #0000002d;
+    scroll-behavior: smooth;
+}
+
 @keyframes slide-up-token {
     0% {
         transform: translateY(100px);
@@ -158,4 +173,14 @@
     .to_top {
         display: flex;
     }
+}
+
+.marquee_container {
+    overflow: hidden;
+    border: 0.25rem solid var(--main-black-col);
+    border-left-color: var(--main-green-col);
+    border-right-color: var(--main-green-col);
+    padding: 0.8rem 0;
+    background-image: linear-gradient(var(--main-green-col) 82%, var(--dark-green-col));
+    box-shadow: 0px 3px 4x var(--main-black-col), inset(0px 3px 4x var(--main-black-col));
 }

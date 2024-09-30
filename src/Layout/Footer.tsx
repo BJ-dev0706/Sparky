@@ -40,7 +40,6 @@ const Footer: React.FC = () => {
         </li>
       </ul>
       <div className="footer_disclaimer">
-        <p className="text-white text-center">Just a spark amongst the darkness</p>
         <p className="text-white">Copyright © Sparky || All Rights Reserved.</p>
       </div>
       <div className="to_top">
