@@ -9,7 +9,7 @@ const HowToBuy: React.FC = () => {
     <section className="relative h-full" id="howtobuy">
       <img src={bg} alt="background" className="w-full h-[50vw]" />
       <div className="absolute top-0 left-0 w-full h-full flex items-center justify-start flex-col">
-        <img src={howToBuy} alt="" className="lg:w-[650px] md:w-[350px] w-[250px]" />
+        <img src={howToBuy} alt="" className="lg:w-[700px] md:w-[350px] w-[250px]" />
         <img src={workinprogress} alt="" className="lg:w-[300px] md:w-[200px] w-[100px]" />
       </div>
     </section>

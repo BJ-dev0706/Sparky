@@ -57,7 +57,7 @@ const Footer: React.FC = () => {
       {isVisible && 
         <>
           <div className="footer_disclaimer">
-            <p className="text-white">
+            <p className="text-white [text-shadow:_0_2px_0_rgb(0_0_0_/_40%)]">
               Copyright © Sparky || All Rights Reserved.
             </p>
           </div>
