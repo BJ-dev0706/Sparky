@@ -26,7 +26,7 @@ const About: React.FC = () => {
             <img src={Mark} alt="" />
           </h1> */}
           <div className="relative lg:w-1/2 sm:w-4/5 w-[90%] flex md:flex-row flex-col items-center justify-center">
-            <div className="lg:py-10 lg:px-5 md:py-7 md:px-4 sm:py-5 sm:px-3 py-3 px-2 text-white Neufreit">
+            <div className="lg:py-10 lg:px-5 md:py-7 md:px-4 sm:py-5 sm:px-3 py-3 px-2 text-md text-white Neufreit">
               {story.map((item) => (
                 <p key={item} className="md:mb-2 mb-1 [text-shadow:_0_3px_0_rgb(0_0_0_/_40%)]">
                   {item}
