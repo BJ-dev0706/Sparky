@@ -44,7 +44,7 @@ const Footer: React.FC = () => {
       </div>
       <div className="to_top">
         <p className="text-white">To the top</p>
-        <a id="scroll-top" href="#hero" className="bg-white rounded-full p-1" >
+        <a id="scroll-top" href="#home" className="bg-white rounded-full p-1" >
           <img src={UpArrow} alt="up" />
         </a>
       </div>
