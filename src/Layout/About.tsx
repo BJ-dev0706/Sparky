@@ -15,7 +15,7 @@ const About: React.FC = () => {
     >
       <div className="flex flex-col items-center justify-center">
         <div className="flex flex-col items-center justify-center w-full break-words md:text-3xl text-xl !font-medium leading-snug my-10">
-          <h1 className="text-white text-5xl mb-5 luckiest-guy-regular  [text-shadow:_0_3px_0_rgb(0_0_0_/_40%)] max-sm:[text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]">
+          <h1 className="text-white lg:text-5xl sm:text-3xl text-xl mb-5 luckiest-guy-regular text-shadow-custom ">
             About Sparky
           </h1>
           <div className="relative xl:w-1/2 sm:w-4/5 w-[90%] flex md:flex-row flex-col items-center justify-center luckiest-guy-regular">
