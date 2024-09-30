@@ -43,7 +43,6 @@ const Footer: React.FC = () => {
         <p className="text-white">Copyright © Sparky || All Rights Reserved.</p>
       </div>
       <div className="to_top">
-        <p className="text-white">To the top</p>
         <a id="scroll-top" href="#home" className="bg-white rounded-full p-1" >
           <img src={UpArrow} alt="up" />
         </a>
