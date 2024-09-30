@@ -13,10 +13,10 @@ const Hero = () => {
           <img
             src={title}
             alt=""
-            className="hover:scale-110 transition !z-[100]"
+            className="w-[1000px]"
           />
         </div>
-        <div className="md:text-2xl text-lg text-white bg-[#0096cc] border-2 p-2 bottom-10 absolute font-extrabold max-sm:hidden mx-5 text-center shadow-2xl rounded-md" >
+        <div className="md:text-2xl text-lg text-white bg-[#0096cc] border-2 p-2 bottom-10 absolute font-extrabold max-sm:hidden mx-5 Neufreit text-center shadow-2xl rounded-md" >
           <Typewriter
             options={{
               strings: [
