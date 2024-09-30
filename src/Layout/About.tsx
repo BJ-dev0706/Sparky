@@ -17,7 +17,7 @@ const story: string[] = [
 const About: React.FC = () => {
   return (
     <section
-      className="w-full flex flex-col items-center justify-center bg-[#64c6d7] bg-[url(./assets/img/howtobuy.gif)] bg-cover relative overflow-hidden"
+      className="w-full flex flex-col items-center justify-center bg-[#64c6d7] bg-[url(./assets/img/howtobuy.gif)] bg-cover relative overflow-hidden lg:h-[50vw]"
       id="about"
     >
       <div className="flex flex-col items-center justify-center">
