@@ -7,9 +7,8 @@ import Marquee from "react-fast-marquee";
 
 const Hero = () => {
   return (
-    <section className="relative overflow-hidden" id="home">
-      <div className="absolute top-0 right-0 left-0 h-full w-screen overflow-hidden flex items-center justify-center luckiest-guy-regular bg-cover">
-        {/* <h1 className="hero_text">Sparky</h1> */}
+    <section className="relative overflow-hidden luckiest-guy-regular" id="home">
+      <div className="absolute top-0 right-0 left-0 h-full w-screen overflow-hidden flex items-center justify-center bg-cover">
         <div className="Mark">
           <img
             src={title}
@@ -17,7 +16,7 @@ const Hero = () => {
             className="hover:scale-110 transition !z-[100]"
           />
         </div>
-        <div className="text-3xl text-[#1a0808] bottom-10 absolute font-extrabold max-sm:hidden">
+        <div className="md:text-2xl text-lg text-[#ff0000] bottom-10 absolute font-extrabold max-sm:hidden mx-5 text-center">
           <Typewriter
             options={{
               strings: [
@@ -25,6 +24,7 @@ const Hero = () => {
               ],
               autoStart: true,
               loop: true,
+              
             }}
           />
         </div>
@@ -33,7 +33,7 @@ const Hero = () => {
         </div>
       </div>
       <Marquee className="!bg-transparent !absolute top-[10%] z-30" speed={20} >
-        <img src={cloud} alt="" className="w-[200px]" />
+        <img src={cloud} alt="" className="w-[200px] max-sm:hidden" />
       </Marquee>
       <Marquee className="!bg-transparent !absolute top-[40%] z-30" speed={40} direction="right">
         <img src={cloud} alt="" className="w-[100px]" />
@@ -42,7 +42,7 @@ const Hero = () => {
         <img src={cloud} alt="" className="w-[150px]" />
       </Marquee>
       <Marquee className="!bg-transparent !absolute top-[80%] z-30" speed={15} >
-        <img src={cloud} alt="" className="w-[130px]" />
+        <img src={cloud} alt="" className="w-[130px] max-sm:hidden" />
       </Marquee>
       <img src={hero} alt="" className="w-full h-[50vw] z-50" />
     </section>

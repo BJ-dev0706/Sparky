@@ -3,14 +3,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@font-face {
-    font-family: 'Neufreit';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(./assets/Neufreit-ExtraBold.otf) format('otf');
-}
-
 html {
     scroll-behavior: smooth;
 }
@@ -25,14 +17,6 @@ html {
     font-family: "Kavoon", serif;
     font-weight: 400;
     font-style: normal;
-}
-
-@font-face {
-    font-family: 'Marker';
-    font-style: normal;
-    font-weight: 800;
-    font-display: swap;
-    src: url(./assets/PermanentMarker-Regular.ttf) format('ttf');
 }
 
 .Marker {

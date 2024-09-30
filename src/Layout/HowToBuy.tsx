@@ -93,47 +93,25 @@ const HowToBuy: React.FC = () => {
         )}
         <div className="flex flex-col gap-3">
           <div className="flex justify-around gap-4 items-center px-4 py-1 rounded-[15px] ring-1 ring-white">
-            {
-                icons.map(item => (
-                    <div className="relative group hover:cursor-pointer rounded-full transition-all duration-500">
-                        <a href={item.link} target="_blank" rel="noreferrer">
-                            <img src={item.image} alt="" className="w-[50px] h-[50px] hover:scale-105 transition" />
-                        </a>
-                        <div className=" absolute bottom-full left-1/2 transform -translate-x-1/2 mb-4 w-max px-2 py-1 text-white bg-black rounded-md opacity-0 scale-50 transition-all duration-500 group-hover:opacity-100 group-hover:scale-100">
-                            {item.name}
-                        </div>
-                    </div>
-                ))
-            }
-          </div>
-          <div className="tooltip-container">
-            <div className="button-content shadow-md">
-              <span className="text">Buy Now</span>
-              <span className="share-icon">🎁</span>
-            </div>
-            <div className="tooltip-content">
-              <div className="social-icons">
-                <a
-                  href="https://raydium.io/swap/"
-                  className="social-icon twitter"
-                >
-                  <img src={raydium} alt="" className="w-[24px] h-[24px]" />
-                </a>
-                <span
-                  className="social-icon facebook"
-                  onClick={() => setJupiterModal(!jupiterModal)}
-                >
-                  <img src={jupiter} alt="" className="w-[24px] h-[24px]" />
-                </span>
-                <span className="social-icon linkedin" onClick={handleCopy}>
+            {icons.map((item) => (
+              <div className="relative group hover:cursor-pointer rounded-full transition-all duration-500">
+                <a href={item.link} target="_blank" rel="noreferrer">
                   <img
-                    src={address}
+                    src={item.image}
                     alt=""
-                    className="w-[24px] h-[24px] rounded"
+                    className="w-[50px] h-[50px] hover:scale-105 transition"
                   />
-                </span>
+                </a>
+                <div className=" absolute bottom-full left-1/2 transform -translate-x-1/2 mb-4 w-max px-2 py-1 text-white bg-black rounded-md opacity-0 scale-50 transition-all duration-500 group-hover:opacity-100 group-hover:scale-100">
+                  {item.name}
+                </div>
               </div>
-            </div>
+            ))}
+          </div>
+          <div className="w-full ">
+            <button className="cursor-pointer transition-all bg-blue-500 text-white px-6 py-2 rounded-full shadow-xl hover:brightness-110 hover:-translate-y-[1px] hover:border-b-[6px]\nactive:border-b-[2px] active:brightness-90 active:translate-y-[2px]" onClick={() => { setJupiterModal(!jupiterModal) }}>
+              Buy Now
+            </button>
           </div>
         </div>
       </div>

@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
-import Marquee from "react-fast-marquee";
-import one from "../assets/img/IMG_6739.webp";
-import two from "../assets/img/hero.webp";
-import three from "../assets/img/a.webp";
-import four from "../assets/img/IMG_6786.webp";
-import five from "../assets/img/IMG_6801.webp";
+// import Marquee from "react-fast-marquee";
+// import one from "../assets/img/IMG_6739.webp";
+// import two from "../assets/img/hero.webp";
+// import three from "../assets/img/a.webp";
+// import four from "../assets/img/IMG_6786.webp";
+// import five from "../assets/img/IMG_6801.webp";
 
 const story: string[] = [
   "Sparky, a radiant celestial being born from the heart of a dying star, emerged as a mythical figure known for bringing prosperity to those who believed in him.",
@@ -30,30 +30,29 @@ const About: React.FC = () => {
   }, []);
   return (
     <section
-      className="w-full flex flex-col items-center justify-center bg-red-500 relative bg-[url(./assets/img/bg.jpg)] bg-cover"
+      className="w-full flex flex-col items-center justify-center bg-red-500 relative bg-[url(./assets/img/IMG_6826.webp)] bg-cover overflow-hidden"
       id="about"
     >
       <div className="flex flex-col items-center justify-center">
         <div className="flex flex-col items-center justify-center md:w-1/2 w-4/5 break-words md:text-3xl text-xl leading-snug my-10">
-          <h1 className="text-red-400 text-7xl mb-5">Sparky</h1>
-          <div className="relative w-full h-[200px]">
-            <div className="absolute top-0 left-0 w-full h-full">
-              <div className="absolute w-0 h-0 border-l-[15px] border-l-transparent border-r-[15px] border-r-transparent border-b-[15px] border-b-[#f5f5f591] top-0 left-1/2 transform -translate-x-1/2 -translate-y-full"></div>
-            </div>
-            <div className="bg-[#f5f5f591] p-5 h-full w-full lg:text-2xl md:text-lg text-base relative z-10 rounded overflow-hidden">
+          <h1 className="text-red-400 text-7xl mb-5 kavoon-regular">Sparky</h1>
+          <div className="relative w-full">
+            <div className="p-5 h-full w-full lg:text-2xl md:text-lg text-base relative z-10 rounded overflow-hidden">
               <div 
-                className={`w-full h-[200px] text-left indent-5 flex items-center transition-transform duration-500 ${
-                  isAnimating
-                    ? "transform translate-y-[-50px] opacity-0"
-                    : "transform translate-y-0 opacity-100"
-                }`}
+                className="w-full text-left indent-5 flex flex-col items-center transition-transform duration-500 kavoon-regular text-white"
               >
-                {story[currentIndex]}
+                {
+                  story.map(item => (
+                    <p key={item} className="mb-5">
+                      {item}
+                    </p>
+                  ))
+                }
               </div>
             </div>
           </div>
         </div>
-        <Marquee direction="right" className="py-5 w-full max-[1000px]:!hidden">
+        {/* <Marquee direction="right" className="py-5 w-full max-[1000px]:!hidden !rotate-45 !translate-x-0">
           <img
             src={one}
             alt=""
@@ -79,7 +78,7 @@ const About: React.FC = () => {
             alt=""
             className="md:h-[20vh] h-[5vh] mx-10 rounded-md border-2 border-[#fff] shadow-lg"
           />
-        </Marquee>
+        </Marquee> */}
       </div>
     </section>
   );
