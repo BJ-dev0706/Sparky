@@ -45,7 +45,7 @@ const Footer: React.FC = () => {
         </li>
         <li>
           <a
-            href="https://t.me/fwogportal"
+            href="https://x.com/sparkyonsol?s=21"
             className="link"
             target="_blank"
             rel="noreferrer"
