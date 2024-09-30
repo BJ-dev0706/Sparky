@@ -11,7 +11,7 @@ import End from "./Layout/End";
 
 const App: React.FC = () => {
   return(
-    <div className="kavoon-regular">
+    <div className="Neufreit">
       <Header />
       <Hero />
       <Sparky />
