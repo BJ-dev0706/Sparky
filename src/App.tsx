@@ -11,8 +11,7 @@ import End from "./Layout/End";
 
 const App: React.FC = () => {
   return(
-    <div className="Neufreit">
-      <Header />
+    <div className="luckiest-guy-regular">
       <Hero />
       <Sparky />
       <About />

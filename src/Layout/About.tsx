@@ -21,12 +21,12 @@ const About: React.FC = () => {
       id="about"
     >
       <div className="flex flex-col items-center justify-center">
-        <div className="flex flex-col items-center justify-center w-full break-words md:text-3xl text-xl leading-snug my-10">
+        <div className="flex flex-col items-center justify-center w-full break-words md:text-3xl text-xl !font-medium leading-snug my-10">
           {/* <h1 className="text-red-400 text-7xl mb-5 luckiest-guy-regular">
             <img src={Mark} alt="" />
           </h1> */}
           <div className="relative lg:w-1/2 sm:w-4/5 w-[90%] flex md:flex-row flex-col items-center justify-center">
-            <div className="bg-[#0096cc9f] lg:py-10 lg:px-5 md:py-7 md:px-4 sm:py-5 sm:px-3 py-3 px-2 !text-lg text-white Neufreit border-2 border-white rounded-lg">
+            <div className="lg:py-10 lg:px-5 md:py-7 md:px-4 sm:py-5 sm:px-3 py-3 px-2 text-white Neufreit">
               {story.map((item) => (
                 <p key={item} className="md:mb-2 mb-1">
                   {item}
