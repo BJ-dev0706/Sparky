@@ -8,7 +8,7 @@ import React from "react";
 // import five from "../assets/img/IMG_6801.webp";
 
 const story: string[] = [
-  "Sparky, a radiant celestial being born from the heart of a dying star, emerged as a mythical figure known for bringing prosperity to those who believed in him.",
+  "SPARKY, a radiant celestial being born from the heart of a dying star, emerged as a mythical figure known for bringing prosperity to those who believed in him.",
   "With a dazzling comet tail and the ability to weave constellations from the ashes of cosmic storms, Sparky promised a future of wealth and fortune to the daring souls who placed their trust in his guidance.",
   "His followers, a mix of dreamers and savvy investors, hailed him as a messiah of abundance, claiming that his celestial touch turned even the smallest investments into dazzling empires.",
   "His legend spread across galaxies, with tales of his twinkling presence inspiring a new generation of star-chasing visionaries eager to find their own riches in the sky.",
@@ -17,7 +17,7 @@ const story: string[] = [
 const About: React.FC = () => {
   return (
     <section
-      className="w-full flex flex-col items-center justify-center bg-[#64c6d7] bg-[url(./assets/img/howtobuy.gif)] h-[50vw] bg-cover relative overflow-hidden"
+      className="w-full flex flex-col items-center justify-center bg-[#64c6d7] bg-[url(./assets/img/howtobuy.gif)] bg-cover relative overflow-hidden"
       id="about"
     >
       <div className="flex flex-col items-center justify-center">
@@ -25,15 +25,15 @@ const About: React.FC = () => {
           {/* <h1 className="text-red-400 text-7xl mb-5 luckiest-guy-regular">
             <img src={Mark} alt="" />
           </h1> */}
-          {/* <div className="relative md:w-1/2 w-full flex md:flex-row flex-col items-center justify-center">
-            <div className="py-10 bg-[#0096cc] p-2 text-white luckiest-guy-regular border-4 border-white rounded-lg">
+          <div className="relative lg:w-1/2 sm:w-4/5 w-[90%] flex md:flex-row flex-col items-center justify-center">
+            <div className="bg-[#0096cc9f] lg:py-10 lg:px-5 md:py-7 md:px-4 sm:py-5 sm:px-3 py-3 px-2 !text-lg text-white luckiest-guy-regular border-2 border-white rounded-lg">
               {story.map((item) => (
-                <p key={item} className="mb-2">
+                <p key={item} className="md:mb-2 mb-1">
                   {item}
                 </p>
               ))}
             </div>
-          </div> */}
+          </div>
           {/* <Marquee
             direction="right"
             className="py-5 w-full max-[1000px]:!hidden"

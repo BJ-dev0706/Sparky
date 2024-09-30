@@ -29,7 +29,7 @@ const Hero = () => {
           />
         </div>
         <div className="absolute top-0 left-0 right-0 opacity-50">
-          <img src={effect} alt="" className="w-full h-[50vw]" />
+          <img src={effect} alt="" className="w-full h-[90vw]" />
         </div>
       </div>
       <Marquee className="!bg-transparent !absolute top-[10%] z-30" speed={20} >
