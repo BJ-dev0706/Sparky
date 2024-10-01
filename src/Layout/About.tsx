@@ -16,12 +16,12 @@ const About: React.FC = () => {
       <video src="/Sparkly animation.mp4" autoPlay loop muted className="" controls={false}></video>
       <div className="flex flex-col items-center justify-center absolute top-0 left-0 right-0 bottom-0">
         <div className="flex flex-col items-center justify-center w-full break-words md:text-3xl text-xl !font-medium leading-snug">
-          <h1 className="text-white lg:text-5xl sm:text-3xl text-xl mb-5 max-sm:mb-0 luckiest-guy-regular text-shadow-custom ">
+          <h1 className="text-white lg:text-5xl sm:text-3xl text-base mb-5 max-sm:mb-0 luckiest-guy-regular text-shadow-custom ">
             About Sparky
           </h1>
           <div className="relative xl:w-1/2 sm:w-4/5 w-[90%] flex md:flex-row flex-col items-center justify-center luckiest-guy-regular">
-            <div className="lg:py-10 lg:px-5 md:py-7 md:px-4 sm:py-5 sm:px-3 py-3 max-sm:py-1 px-2 text-md text-white ">
-              <p className="md:mb-2 mb-1 text-shadow-custom max-md:text-center">
+            <div className="lg:py-10 lg:px-5 md:py-7 md:px-4 sm:py-5 sm:px-3 py-3 max-sm:py-1 px-2 lg:text-4xl sm:text-xl text-sm text-white ">
+              <p className="md:mb-2 mb-1 text-shadow-custom xl:text-center max-md:text-center">
                 SPARKY, a radiant celestial being born from the heart of a dying
                 star, emerged as a mythical figure known for bringing prosperity
                 to those who believed in him.
