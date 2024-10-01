@@ -10,16 +10,17 @@ import React from "react";
 const About: React.FC = () => {
   return (
     <section
-      className="w-full flex flex-col items-center justify-center bg-[#64c6d7] bg-[url(./assets/img/howtobuy.gif)] bg-cover relative overflow-hidden lg:h-[50vw]"
+      className="w-full flex flex-col items-center justify-center relative"
       id="about"
     >
-      <div className="flex flex-col items-center justify-center">
-        <div className="flex flex-col items-center justify-center w-full break-words md:text-3xl text-xl !font-medium leading-snug my-10">
-          <h1 className="text-white lg:text-5xl sm:text-3xl text-xl mb-5 luckiest-guy-regular text-shadow-custom ">
+      <video src="/Sparkly animation.mp4" autoPlay loop className=""></video>
+      <div className="flex flex-col items-center justify-center absolute top-0 left-0 right-0 bottom-0">
+        <div className="flex flex-col items-center justify-center w-full break-words md:text-3xl text-xl !font-medium leading-snug">
+          <h1 className="text-white lg:text-5xl sm:text-3xl text-xl mb-5 max-sm:mb-0 luckiest-guy-regular text-shadow-custom ">
             About Sparky
           </h1>
           <div className="relative xl:w-1/2 sm:w-4/5 w-[90%] flex md:flex-row flex-col items-center justify-center luckiest-guy-regular">
-            <div className="lg:py-10 lg:px-5 md:py-7 md:px-4 sm:py-5 sm:px-3 py-3 px-2 text-md text-white ">
+            <div className="lg:py-10 lg:px-5 md:py-7 md:px-4 sm:py-5 sm:px-3 py-3 max-sm:py-1 px-2 text-md text-white ">
               <p className="md:mb-2 mb-1 text-shadow-custom max-md:text-center">
                 SPARKY, a radiant celestial being born from the heart of a dying
                 star, emerged as a mythical figure known for bringing prosperity
