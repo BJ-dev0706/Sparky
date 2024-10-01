@@ -25,7 +25,7 @@ const Footer: React.FC = () => {
       <ul className="navigation_ul">
         <li>
           <a
-            href="https://dexscreener.com/solana/AB1eu2L1Jr3nfEft85AuD2zGksUbam1Kr8MR3uM2sjwt"
+            href="https://dexscreener.com/"
             className="link"
             target="_blank"
             rel="noreferrer"
@@ -35,22 +35,22 @@ const Footer: React.FC = () => {
         </li>
         <li>
           <a
-            href="https://x.com/solfwog?t=XyaTpxQ1dkrNokXdQGLiHA&amp;s=09l"
-            className="link"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img src={telegram} alt="x" />
-          </a>
-        </li>
-        <li>
-          <a
             href="https://x.com/sparkyonsol?s=21"
             className="link"
             target="_blank"
             rel="noreferrer"
           >
-            <img src={x} alt="telegram" />
+            <img src={x} alt="x" />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://t.me/"
+            className="link"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={telegram} alt="telegram" />
           </a>
         </li>
       </ul>
