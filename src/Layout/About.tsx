@@ -13,7 +13,7 @@ const About: React.FC = () => {
       className="w-full flex flex-col items-center justify-center relative"
       id="about"
     >
-      <video src="/Sparkly animation.mp4" autoPlay loop className=""></video>
+      <video src="/Sparkly animation.mp4" autoPlay loop muted className=""></video>
       <div className="flex flex-col items-center justify-center absolute top-0 left-0 right-0 bottom-0">
         <div className="flex flex-col items-center justify-center w-full break-words md:text-3xl text-xl !font-medium leading-snug">
           <h1 className="text-white lg:text-5xl sm:text-3xl text-xl mb-5 max-sm:mb-0 luckiest-guy-regular text-shadow-custom ">
