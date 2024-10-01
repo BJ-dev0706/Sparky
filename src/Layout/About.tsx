@@ -1,11 +1,7 @@
 import React from "react";
-// import Marquee from "react-fast-marquee";
-// import howtobuy from "../assets/img/howtobuy.gif";
-// import one from "../assets/img/IMG_6739.webp";
-// import two from "../assets/img/hero.webp";
-// import three from "../assets/img/a.webp";
-// import four from "../assets/img/IMG_6786.webp";
-// import five from "../assets/img/IMG_6801.webp";
+import Marquee from "react-fast-marquee";
+import cloud from "../assets/img/cloud.png";
+import hero from "../assets/img/hero.png";
 
 const About: React.FC = () => {
   return (
@@ -13,8 +9,9 @@ const About: React.FC = () => {
       className="w-full flex flex-col items-center justify-center relative"
       id="about"
     >
-      <video src="/Sparkly animation.mp4" autoPlay loop muted controls={false} preload="auto" playsInline></video>
-      <div className="flex flex-col items-center justify-center absolute top-0 left-0 right-0 bottom-0">
+      {/* <video src="/Sparkly animation.mp4" autoPlay loop muted controls={false} preload="auto" playsInline></video> */}
+      <img src={hero} alt="hero" className="w-full h-[50vw] z-0" />
+      <div className="flex flex-col items-center justify-center absolute top-0 left-0 right-0 bottom-0 z-50">
         <div className="flex flex-col items-center justify-center w-full break-words md:text-3xl text-xl !font-medium leading-snug">
           <h1 className="text-white lg:text-5xl sm:text-3xl text-base mb-5 max-sm:mb-0 luckiest-guy-regular text-shadow-custom ">
             About Sparky
@@ -28,39 +25,25 @@ const About: React.FC = () => {
               </p>
             </div>
           </div>
-          {/* <Marquee
-            direction="right"
-            className="py-5 w-full max-[1000px]:!hidden"
-            pauseOnHover
-          >
-            <img
-              src={one}
-              alt=""
-              className="md:h-[20vh] h-[5vh] mx-10 rounded-md border-2 border-[#fff] shadow-lg hover:scale-105 transition cursor-pointer"
-            />
-            <img
-              src={two}
-              alt=""
-              className="md:h-[20vh] h-[5vh] mx-10 rounded-md border-2 border-[#fff] shadow-lg hover:scale-105 transition cursor-pointer"
-            />
-            <img
-              src={three}
-              alt=""
-              className="md:h-[20vh] h-[5vh] mx-10 rounded-md border-2 border-[#fff] shadow-lg hover:scale-105 transition cursor-pointer"
-            />
-            <img
-              src={four}
-              alt=""
-              className="md:h-[20vh] h-[5vh] mx-10 rounded-md border-2 border-[#fff] shadow-lg hover:scale-105 transition cursor-pointer"
-            />
-            <img
-              src={five}
-              alt=""
-              className="md:h-[20vh] h-[5vh] mx-10 rounded-md border-2 border-[#fff] shadow-lg hover:scale-105 transition cursor-pointer"
-            />
-          </Marquee> */}
         </div>
       </div>
+      
+      <Marquee className="!bg-transparent !absolute top-[10%] z-30" speed={20}>
+        <img src={cloud} alt="cloud" className="w-[200px] max-sm:hidden" />
+      </Marquee>
+      <Marquee
+        className="!bg-transparent !absolute top-[40%] z-30"
+        speed={40}
+        direction="right"
+      >
+        <img src={cloud} alt="cloud" className="w-[100px]" />
+      </Marquee>
+      <Marquee className="!bg-transparent !absolute top-[70%] z-30" speed={10}>
+        <img src={cloud} alt="cloud" className="w-[150px]" />
+      </Marquee>
+      <Marquee className="!bg-transparent !absolute top-[80%] z-30" speed={15}>
+        <img src={cloud} alt="cloud" className="w-[130px] max-sm:hidden" />
+      </Marquee>
     </section>
   );
 };
