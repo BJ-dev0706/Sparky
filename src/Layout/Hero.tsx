@@ -1,4 +1,4 @@
-import hero from "../assets/img/hero.webp";
+import hero from "../assets/img/hero.png";
 // import title from "../assets/img/mark.png";
 import effect from "../assets/img/dots.gif";
 import cloud from "../assets/img/cloud.png";
